@@ -1,0 +1,6 @@
+EXISTING_USER_ERROR = 'User already exists'
+ABSENT_DATA_ERROR = 'Email, password and name are required fields'
+INCORRECT_LOGIN_ERROR = 'email or password are incorrect'
+NO_AUTH_ERROR = 'You should be authorised'
+EXISTING_EMAIL_ERROR = 'User with such email already exists'
+NO_INGRS_ERROR = 'Ingredient ids must be provided'
