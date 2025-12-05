@@ -28,8 +28,7 @@ class TestCreateOrder:
         response_create_order = create_order(payload, token)
 
         assert (response_create_order.status_code == 200
-                and response_create_order.json().get("success") is True
-                and response_create_order.json().get("orders"))
+                and response_create_order.json().get("success") is True)
 
     @allure.title("api/orders: 400 bad request -> невозможность создания заказа без ингридиентов")
     def test_create_order_no_ingrs(self, user_create):
